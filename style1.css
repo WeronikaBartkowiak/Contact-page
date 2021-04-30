@@ -1,0 +1,144 @@
+body{
+  font-family: "Lora", serif;
+  color: rgba(5, 3, 3, 1);
+  margin:0;
+}
+
+#container{
+  background: url("brickwall.png"); /*from http://subtlepatterns.com*/
+  height:50vw;
+  width:100%;
+  display: grid;
+  grid-template-columns: 30% 30% 60px 60px 60px 60px;
+  grid-template-rows: 25% 25% 25% 60px 10%;
+  grid-gap: 3px 3px;
+  padding: 10px;
+
+}
+a{
+  text-decoration: none;
+  color: rgba(5, 3, 3, 1);
+}
+
+img:hover{
+  opacity: 0.5;
+}
+
+img{
+  border-radius: 50%;
+}
+
+.logo{
+  font-size: 3vw;
+  grid-area: 1 / 1 / span 1 / span 2;
+  text-align: center;
+  padding-top: 25px;
+  text-decoration: none;
+  color: rgba(5, 3, 3, 1);
+}
+
+.logo:hover{
+  opacity: 0.5;
+}
+
+.zegar{
+  grid-area: 1 / 3 / span 1 / span 4;
+}
+
+.item1{
+  grid-area: 2 / 1 / span 1 / span 1;
+  text-align: center;
+}
+
+.icon-user{
+  font-size: 4vw;
+  color: rgba(5, 3, 3, 1);
+}
+
+
+i:hover{
+  color: rgba(5, 3, 3, 0.5);
+}
+
+.item2{
+  grid-area: 2 / 2 / span 1 / span 1;
+  text-align: center;
+}
+
+.icon-right-hand{
+  font-size: 4vw;
+  color: rgba(5, 3, 3, 1);
+
+}
+
+.item3{
+  grid-area: 2 / 3 / span 2 / span 4;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5vw;
+
+}
+
+.moje-zdjecie{
+  width: 18vw;
+
+
+}
+
+.item4{
+  grid-area: 3 / 1 / span 1 / span 1;
+  text-align: center;
+}
+
+.icon-graduation-cap{
+  font-size: 4vw;
+  color: rgba(5, 3, 3, 1);
+}
+
+.item5{
+  grid-area: 3 / 2 / span 1 / span 1;
+  text-align: center;
+}
+
+.icon-mail{
+  font-size: 4vw;
+  color: rgba(5, 3, 3, 1);
+}
+
+.item6{
+  grid-area: 4 / 1 / span 1 / span 2;
+  text-align: center;
+  align-content: center;
+}
+
+.item7{
+  grid-area: 4 / 3 / span 1 / span 1;
+  width: 80px;
+  justify-content: center;
+}
+
+
+.item8{
+  grid-area: 4 / 4 / span 1 / span 1;
+  width: 80px;
+  justify-content: center;
+}
+
+.item9{
+  grid-area: 4 / 5 / span 1 / span 1;
+  width: 80px;
+  justify-content: center;
+}
+
+.item10{
+  grid-area: 4 / 6 / span 1 / span 1;
+  width: 80px;
+  justify-content: center;
+}
+
+.item11{
+  grid-area: 5 / 1 / span 1 / span 6;
+  text-align: bottom-left;
+  margin-top: 30px;
+  font-size: 10px;
+}
